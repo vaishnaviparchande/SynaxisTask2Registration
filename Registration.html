@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <header>
+        <h1>Event Registration Form</h1>
+    </header>
+
+    <main>
+        <form id="registration-form">
+            <h2>Contact Us</h2>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="enter your number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="event">Event Preferences:</label>
+                <select id="event" name="event" required>
+                    <option value="">Select an event</option>
+                    <option value="workshop">Workshop</option>
+                    <option value="seminar">Seminar</option>
+                    <option value="conference">Conference</option>
+                </select>
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Thank you for Registration.</p>
+    </footer>
+</body>
+</html>
